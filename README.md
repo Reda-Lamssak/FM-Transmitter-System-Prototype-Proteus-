@@ -40,14 +40,20 @@ The transmitter is divided into several functional blocks:
 
 The transmitter behaviour can be described by the following signal equations:
 
-- **Carrier signal**  
-  \( v_c(t) = V_c \sin(2 \pi f_c t) \)
+<h2>Signals Definition</h2>
 
-- **Modulating signal**  
-  \( v_m(t) = V_m \sin(2 \pi f_m t) \)
+<p><strong>Carrier signal</strong><br>
+v<sub>c</sub>(t) = V<sub>c</sub> sin(2π f<sub>c</sub> t)
+</p>
 
-- **Frequency‑modulated signal**  
-  \( v_{FM}(t) = V_c \cos\big( 2 \pi f_c t + \beta \sin(2 \pi f_m t) \big) \)
+<p><strong>Modulating signal</strong><br>
+v<sub>m</sub>(t) = V<sub>m</sub> sin(2π f<sub>m</sub> t)
+</p>
+
+<p><strong>Frequency-modulated (FM) signal</strong><br>
+v<sub>FM</sub>(t) = V<sub>c</sub> cos(2π f<sub>c</sub> t + β sin(2π f<sub>m</sub> t))
+</p>
+
 
 where \( f_c \) is the carrier frequency set by the LC tank, \( f_m \) is the audio frequency, and \( \beta \) is the modulation index determined by the frequency deviation.
 
